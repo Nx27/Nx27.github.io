@@ -7,13 +7,13 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <text>Home</text>
           </li>
           <li>
-            <a href="#about">About</a>
+            <text>About</text>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <text>Contact</text>
           </li>
         </ul>
       </nav>
