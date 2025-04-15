@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import App from "../App";
-//import AppRoutes from "../routes/RoutesNxbime";
+
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="../App"></Link>
+            <Link to="../App">Home</Link>
           </li>
           <li>
             <a href="#about">About</a>

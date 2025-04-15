@@ -1,8 +1,8 @@
 import React from "react";
 
-function Header() {
+function Footer() {
   return (
-    <header>
+    <footer>
       <h1>FOOTER</h1>
       <nav>
         <ul>
@@ -17,7 +17,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </footer>
   );
 }
-export default Header;
+export default Footer;
