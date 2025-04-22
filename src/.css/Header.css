@@ -2,8 +2,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #333;
-  color: white;
+  background-color: #49c5ca;
+  color: #080f10;
   padding: 1rem;
   width: 15vw;
   height: 100vh;
@@ -19,25 +19,37 @@ header h1 {
 
 nav ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   width: 100%;
 }
 
-nav ul li {
-  margin: 1rem 0;
-}
-
 nav ul li a {
-  color: white;
+  background-image: url("../assets/button-sheet.png");
+  width: 118px;
+  height: 50px;
+  image-rendering: pixelated;
+  background-position: 0px 0px;
+  color:#080f10;
   text-decoration: none;
   font-size: 1rem;
-  display: block;
+  background-repeat: no-repeat;
   padding: 0.5rem;
   text-align: center;
-  transition: background-color 0.3s;
+  display: inline-block;
+  background-size:  auto;
 }
 
 nav ul li a:hover {
-  background-color: #555;
+  background-image: url("../assets/button-sheet.png");
+  background-position: -118px 0px;
 }
+
+nav ul li a:active {
+  background-image: url("../assets/button-sheet.png");
+  animation: 1s play 1s steps(3, end) forwards;
+
+}
+@keyframes play {
+  0% { background-position: -118px 0px; }
+  100% { background-position: -354px 0px; }
+}
+

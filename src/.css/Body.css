@@ -1,3 +1,14 @@
 .body {
-  left: 30vw;
+  position: absolute;
+  left: 15vw;
+  background-color: #f8fcfc;
+  width: 85vw;
+  height: 100vh;
+  color: #080f10;
+}
+
+.generalContent {
+   width: 70vw;
+  margin-left : 5vw;
+  margin-top: 5vh;
 }

@@ -1,0 +1,25 @@
+.projectsPreview {
+  
+  margin-top: 5vh; 
+  background-color: aliceblue;
+}
+
+.projectCards{
+  display: flex;;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+.projectCard{
+ white-space: nowrap;
+ margin-right: 10vw ;
+ margin-top: 5vh;
+
+}
+.projectCard img{
+  width: 20vw;
+  height: auto;
+  object-fit: fill;
+}
