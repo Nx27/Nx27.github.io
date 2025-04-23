@@ -21,19 +21,25 @@ const Home: React.FC = () => {
           <div className='projectCards'>
             <div className='projectCard'>
               <Link to="/TheJourney"><img src={Ascii} /></Link>
-              <h3>The Journey</h3>
-              <p>My first project ever</p>
+              <div className='projectCardText'>
+                <h3>The Journey</h3>
+                <p>My first project ever</p>
+              </div>
             </div>
 
             <div className='projectCard'>
               <Link to="/SiepieAndTakkie"><img src={Siepie} /></Link>
-              <h3>Siepie and Takkie</h3>
-              <p>International project</p>
+              <div className='projectCardText'>
+                <h3>Siepie and Takkie</h3>
+                <p>International project</p>
+              </div>
             </div>
 
             <div className='projectCard'>
-              <Link to="./ProjectsPage"><img /></Link>
-              <h3>See more</h3>
+              <Link to="./ProjectsPage"><img src="https://github.com/Nx27-ma/colorTD/raw/master/GitPictures/MainScreenTowerDefense.png"/><h3>See more</h3></Link>
+              <div className='projectCardText'>
+    
+              </div>
             </div>
           </div>
 

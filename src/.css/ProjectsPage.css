@@ -1,3 +1,18 @@
-.heroContainer {
-  
+.heroImage img{
+  width: 50vw;
+  height: auto;
+}
+
+.projectContent img{
+ height: 30vw;
+
+}
+
+.projectCard{
+ border: 3px solid #080f10;
+ min-width: 15vw; 
+}
+
+.projectCardText{
+  border-top: 3PX solid #080f10;
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import Ascii from '../../assets/ascii.png';
 import FlowchartTheJourney from '../../assets/Flowchart the journey 1620x1021 with legenda.png';
-import AsciiClas from "../../assets/AsciiCharactersArray"
+import AsciiClass from "../../assets/AsciiCharactersArray"
+import '../../.css/TheJourney.css';
 
 const TheJourney: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const TheJourney: React.FC = () => {
       <div className='generalContent'>
         <div className='heroContainer'>
           <div className='heroImage'>
-            <img src={Ascii} alt="" />
+            <img src={Ascii} alt="Ascii" />
           </div>
           <div className='heroText'>
             <h1>The Journey</h1>
@@ -30,12 +31,21 @@ const TheJourney: React.FC = () => {
           <div className="projectContent">
             <h2>Dialog system</h2>
             <p>We were tasked to make up our own story for this console game. This is the flowchart I made for the story. Every ImgIndex is another frame of the story.</p>
-            <img height="500px" src={FlowchartTheJourney} alt="Flowchart" />
+            <img src={FlowchartTheJourney} alt="Flowchart" />
           </div>
           <div className="projectContent">
             <h2>My Ascii art</h2>
             <p>All the ascii art is made by myself in word here are the three main characters in the story</p>
-           
+            <div className="asciiArt">
+              {AsciiClass.Collection.map((asciiArray, index) => (
+                <div key={index} className="asciiCharacter">
+                  <p style={{ fontFamily: 'consolas' }}>
+                    {asciiArray.join('\n')}
+                  </p>
+                  <br />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

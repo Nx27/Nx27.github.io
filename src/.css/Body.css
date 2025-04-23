@@ -1,8 +1,8 @@
 .body {
   position: absolute;
-  left: 15vw;
-  background-color: #f8fcfc;
-  width: 85vw;
+  left: 10vw;
+  background-color: aliceblue;
+  width: 90vw;
   height: 100vh;
   color: #080f10;
 }

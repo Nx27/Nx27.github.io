@@ -5,11 +5,12 @@ header {
   background-color: #49c5ca;
   color: #080f10;
   padding: 1rem;
-  width: 15vw;
+  width: 10vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
+  border-right: 3px solid #080f10;	
 }
 
 header h1 {
@@ -36,6 +37,7 @@ nav ul li a {
   text-align: center;
   display: inline-block;
   background-size:  auto;
+  margin-top : 0.2rem;
 }
 
 nav ul li a:hover {
@@ -53,3 +55,9 @@ nav ul li a:active {
   100% { background-position: -354px 0px; }
 }
 
+.tracer{
+  width: 5vw;
+  margin-top: 3.5vh;
+  margin-bottom: 3vh;
+  border: 3px solid #080f10;
+}

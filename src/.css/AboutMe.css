@@ -1,4 +1,17 @@
 .AboutMeContainer{
-  flex: auto;
-  display: flex;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+}
+
+.AboutMeContainer p {
+columns: 1;
+}
+
+.AboutMeContainer img{
+  aspect-ratio: 1/1;
+  columns: 1;
+  margin-top: 3.6vh;
+  margin-left: 3vw;
+  width: 50%;
 }

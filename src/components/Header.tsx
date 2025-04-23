@@ -1,6 +1,7 @@
 import React, { EventHandler } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import App from "../App";
+import tracer from "../assets/tracerfanart.png";
 
 function Header() {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ function Header() {
   };
   return (
     <header>
-      <h1>HEADER</h1>
+      <img className="tracer" src={tracer}/>
       <nav>
         <ul>
           <li>

@@ -1,7 +1,6 @@
 .projectsPreview {
   
   margin-top: 5vh; 
-  background-color: aliceblue;
 }
 
 .projectCards{
@@ -14,12 +13,11 @@
 }
 .projectCard{
  white-space: nowrap;
- margin-right: 10vw ;
+ margin-right: 6vw ;
  margin-top: 5vh;
 
 }
 .projectCard img{
-  width: 20vw;
-  height: auto;
+  height: 10vw;
   object-fit: fill;
 }

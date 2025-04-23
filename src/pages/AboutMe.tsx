@@ -1,13 +1,14 @@
 import React from 'react';
 import '../.css/AboutMe.css';
+import OmoriNora from '../assets/nxbi omori.png'
 
 const AboutMe: React.FC = () => {
     return (
       <div className="body">
         <div className="generalContent">
         <div className="AboutMeContainer">
-          <div className='AboutMeImage'> </div>
-          <div className="AboutMeText">
+           
+         <div>
           <h1>About Me</h1>
           <p>
             So writing an about me huh… Hi I’m Nora, Dutch, 19 years old and
@@ -26,10 +27,12 @@ const AboutMe: React.FC = () => {
             communication. Just like I hope that I just properly communicated to
             the lovely reader of this text, who I am.
           </p>
+            </div>
+              <img src={OmoriNora} />
           </div>
         </div>
         </div>
-      </div>
+
     );
 };
 
